@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    android:orientation="vertical"
+    android:padding="36dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="@font/ys_display_medium"
+            android:gravity="center"
+            android:text="@string/title_text"
+            android:textColor="@color/material_dynamic_secondary0"
+            android:textFontWeight="500"
+            android:textSize="@dimen/button_textSize" />
+
+        <Button
+            android:id="@+id/button_search"
+            style="@style/main_buttonStyle"
+            android:layout_weight="1"
+            android:insetLeft="0dp"
+            android:minHeight="88dip"
+            android:text="@string/search_btn_text"
+            app:icon="@drawable/search" />
+
+        <Button
+            android:id="@+id/button_media"
+            style="@style/main_buttonStyle"
+            android:minHeight="88dip"
+            android:text="@string/media_btn_text"
+            app:icon="@drawable/library" />
+
+        <Button
+            android:id="@+id/button_settings"
+            style="@style/main_buttonStyle"
+            android:minHeight="88dip"
+            android:text="@string/settings_title"
+            app:icon="@drawable/settings" />
+
+    </LinearLayout>
+
+</LinearLayout>

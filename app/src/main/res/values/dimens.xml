@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <dimen name="button_cornerRadius">16dp</dimen>
+    <dimen name="button_textSize">22sp</dimen>
+    <dimen name="button_marginBottom">10dp</dimen>
+    <dimen name="settings_textSize">16sp</dimen>
+    <dimen name="padding_liner_card">8dp</dimen>
+    <dimen name="margin_liner_card">8dp</dimen>
+    <dimen name="primaryMarginPaddingSize">16dp</dimen>
+    <dimen name="corners_image_track">2dp</dimen>
+</resources>
